@@ -1,7 +1,13 @@
 set -e
 
-git fetch --all
-git reset --hard origin/main
+#!/bin/bash
+
+if [ "$1" == "--reset" ]; then
+    git fetch --all
+    git reset --hard origin/main
+else
+    git fetch --all
+fi
 
 if [ ! -f ./hugo ]; then
     echo "Downloading Hugo..."
@@ -11,9 +17,5 @@ if [ ! -f ./hugo ]; then
 fi
 
 ./hugo
-rm -rf ~/htdocs/*
-mv ./public/* ~/htdocs/
+rm -rf ~/htdocs/* && mv ./public/* ~/htdocs/
 echo "Deployed to ~/htdocs/"
-
-rm -r public
-rm -rf ./resources

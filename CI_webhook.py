@@ -17,7 +17,7 @@ def deploy():
         if 'ref' in data and data['ref'] == 'refs/heads/main':
             print("Deploying")
             logging.info('Deployment started.')
-            ret = subprocess.run(["bash", "deploy_csie.sh"])
+            ret = subprocess.run(["bash", "deploy_csie.sh", "--reset"])
             if ret.returncode == 0:
                 logging.info('Deployment successful.')
                 return 'Deployed', 200
