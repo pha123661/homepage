@@ -19,7 +19,6 @@ def deploy():
             logging.info('Deployment started.')
             ret = subprocess.run(["bash", "deploy_csie.sh"])
             if ret.returncode == 0:
-                logging.info(ret.stdout)
                 logging.info('Deployment successful.')
                 return 'Deployed', 200
             else:
