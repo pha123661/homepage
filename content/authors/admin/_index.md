@@ -23,8 +23,8 @@ role: MLE Intern @ Google | CS @ NTU
 organizations:
   - name: Google LLC
     url: https://about.google/
-  - name: National Taiwan University
-    url: https://www.csie.ntu.edu.tw/
+  # - name: National Taiwan University
+  #   url: https://www.csie.ntu.edu.tw/
 
 # Short bio (displayed in user profile at end of posts)
 # bio: Short bio here.
