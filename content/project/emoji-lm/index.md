@@ -15,5 +15,8 @@ image:
   focal_point: Smart
 
 links:
-url_code: 'https://github.com/pha123661/EmojiLmBot/'
+- name: Code
+  url: 'https://github.com/pha123661/EmojiLmBot/'
+  icon_pack: fas
+  icon: file-code
 ---

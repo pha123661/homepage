@@ -34,6 +34,27 @@ url_video: ''
 slides: ""
 ---
 
-Learn more about the project on the [official website](https://taide.tw/index) or the [Huggingface model hub](https://huggingface.co/taide).
+The TAIDE project focuses on creating generative AI dialogue models tailored to Taiwan's language and culture. By integrating industry, academia, and research, we aim to develop trustworthy AI, boost Taiwan's global competitiveness, promote industrial growth, and reduce dependence on foreign technologies.
 
-News in English: [TAIDE Project](https://www.taipeitimes.com/News/taiwan/archives/2024/05/04/2003817360)
+Features:
+
+- Expanded character and word set: Added 24,720 Chinese characters and high-frequency words.
+- Used only licensed data: Ensured all training data was legally obtained.
+- Improved performance in tasks like summarization, letter and article writing, and translation.
+- Taiwanese culture emphasis: Incorporated knowledge of local culture and language.
+- Multi-turn Q&A ability: Equipped the model for multi-turn dialogues.
+
+#### Releases
+
+- [**Llama3-TAIDE-LX-8B-Chat-Alpha1**](https://huggingface.co/taide/Llama3-TAIDE-LX-8B-Chat-Alpha1)
+  - Based on LLaMA3-8b
+  - Max Content Length: 8K
+  - Traditional Chinese Training Data Tokens: 43B
+  - Training Time: 2336 H100 GPU Hours
+
+- [**TAIDE-LX-7B-Chat**](https://huggingface.co/taide/TAIDE-LX-7B-Chat)
+  - Based on LLaMA2-7b
+  - Max Content Length: 4K
+  - Traditional Chinese Training Data Tokens: 41.44B
+  - Training Time: 1531.82 H100 GPU Hours
+

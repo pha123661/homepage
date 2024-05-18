@@ -1,6 +1,6 @@
 ---
 title: "AI Learning and Digital Twin in HVAC Control"
-summary: AI for HVAC control. Introduction of meta-learning to reduce data requirement for 97.5%.
+summary: AI for HVAC control. The research won the Gold Award of the Intelligent Living Space Design Competition in 2022.
 tags:
   - Multimodal DL
 date: '2022-11-01T00:00:00Z'
@@ -16,6 +16,11 @@ links:
     url: https://www.gvm.com.tw/article/96873
     icon_pack: fas
     icon: newspaper
+  - name: Competition
+    url: https://design.ils.org.tw/
+    icon_pack: fas
+    icon: trophy
+
 url_code: ''
 url_pdf: ''
 url_slides: ''

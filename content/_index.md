@@ -56,7 +56,7 @@ sections:
           location: Taipei
           date_start: '2023-03-01'
           date_end: '2023-09-01'
-          description: 'Contributed to the [TAIDE Project](https://taide.tw/index), including preference data generation, pre-training, instruction tuning, and safety alignment.'
+          description: 'Contributed to the [TAIDE Project](project/taide/), including preference data generation, pre-training, instruction tuning, and safety alignment.'
 
         - title: AI Engineering Intern
           company: Tomofun, an AI Pet Technology Startup
@@ -74,7 +74,9 @@ sections:
           location: Hsinchu
           date_start: '2021-01-01'
           date_end: '2022-01-01'
-          description: 'Engaged in efficient meta-learning for sensor forecasting, reducing training data requirement by 97.5%.'
+          description: |
+                  Engaged in efficient meta-learning for sensor forecasting, reducing training data requirement by 97.5%.
+                  [AI Learning and Digital Twin in HVAC Control](project/tsmc-hvac/)
 
     design:
       columns: '1'
