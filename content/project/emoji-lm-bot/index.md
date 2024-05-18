@@ -1,5 +1,5 @@
 ---
-title: 哈哈狗, an emoji language model bot
+title: 哈哈狗, an Emoji Language Model Bot
 summary: This is a bot that uses a language model to generate emojis based on a given text or paragraph in Line.
 
 tags:
@@ -13,4 +13,7 @@ external_link: https://github.com/pha123661/EmojiLmBot/blob/main/README-EN.md
 image:
   caption: Demo of the app
   focal_point: Smart
+
+links:
+url_code: 'https://github.com/pha123661/EmojiLmBot/'
 ---
