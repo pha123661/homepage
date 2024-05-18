@@ -46,7 +46,7 @@ sections:
           company_logo: org-intel
           location: Taipei
           date_start: '2023-07-01'
-          date_end: '2023-06-01'
+          date_end: '2024-06-01'
           description: 'Contributed to the internal LLM coding assistant for unit-test generation, improving the code coverage by 20% without human intervention.'
 
         - title: NLP Engineer, TAIDE Project

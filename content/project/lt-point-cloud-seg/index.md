@@ -1,6 +1,7 @@
 ---
 title: Long-tailed 3D Point Cloud Segmentation
-summary: Proposed a new framework in 3D point cloud segmentation.
+summary: In this project, we adapt the well-known attention mechanism to 3D point cloud segmentation and demonstrate its effectiveness in combination with U-Net-inspired architecture and various long-tail recognition (LTR) techniques on the SCANNET200 dataset.
+
 tags:
   - Computer Vision
 date: "2023-02-15T00:00:00Z"
