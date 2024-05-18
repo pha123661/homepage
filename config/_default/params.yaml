@@ -10,7 +10,6 @@ appearance:
   theme_night: minimal
   font: minimal
   font_size: L
-  color: cteal
 
 # SEO
 
@@ -47,9 +46,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Oscar'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false

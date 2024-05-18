@@ -1,17 +1,17 @@
 ---
 # Display name
-title: Li, Sheng-Wei
+title: Li, Oscar
 
 # Name pronunciation (optional)
 name_pronunciation: 李勝維
 
 # Full name (for SEO)
-first_name: Oscar Sheng Wei
-last_name: Li
+first_name: 勝維 Sheng-Wei
+last_name: 李 Li
 
-# Status emoji
-status:
-  icon: 😁
+# # Status emoji
+# status:
+#   icon: 😁
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,11 +20,11 @@ superuser: true
 role: MLE Intern @ Google | CS @ NTU
 
 # Organizations/Affiliations to show in About widget
-# organizations:
-#   - name: Google LLC
-#     url: https://about.google/
-  # - name: National Taiwan University
-  #   url: https://www.csie.ntu.edu.tw/
+organizations:
+  - name: Google LLC
+    url: https://about.google/
+  - name: National Taiwan University
+    url: https://www.csie.ntu.edu.tw/
 
 # Short bio (displayed in user profile at end of posts)
 # bio: Short bio here.
@@ -91,9 +91,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: '#contact'
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: 'mailto:swli-iagents.9vj9n@slmail.me'
   #- icon: twitter
   #  icon_pack: fab
   #  link: https://twitter.com/
@@ -103,12 +103,12 @@ social:
   #- icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
   #  icon_pack: fas
   #  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/oscar-swli
   - icon: github
     icon_pack: fab
     link: https://github.com/pha123661
-  - icon: linkedin-in
-    icon_pack: fab
-    link: https://www.linkedin.com/in/oscar-swli
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -120,7 +120,7 @@ social:
 highlight_name: true
 ---
 
-Hello, my name is Li Sheng-Wei (李勝維) but you can call me Oscar.
+Hello, my name is Li, Sheng-Wei but you can call me Oscar.
 
 I like playing darts and recently ranked up to dartslive rating 9. Along with this, I also like to read novels. My all-time favorite novel is [孺子帝](https://www.books.com.tw/products/0010928621).
 
