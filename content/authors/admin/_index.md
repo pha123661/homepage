@@ -93,7 +93,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: 'mailto:swli-iagents.9vj9n@slmail.me'
   #- icon: twitter
   #  icon_pack: fab
   #  link: https://twitter.com/
@@ -117,15 +117,19 @@ social:
     link: uploads/resume.pdf
 
 # Highlight the author in author lists? (true/false)
-# highlight_name: true
+highlight_name: true
 ---
 
-Hello, my name is Li, Sheng-Wei (李勝維) but you can call me Oscar.
+Hello, my name is Li Sheng-Wei (李勝維) but you can call me Oscar.
 
-I like playing darts and recently ranked up to (DARTSLIVE) RATING 9. Along with this, I also like to read novels. My all-time favorite novel is [孺子帝](https://www.books.com.tw/products/0010928621).
+I like playing darts and recently ranked up to DARTSLIVE RATING 9. Along with this, I also like to read novels. My all-time favorite novel is [孺子帝](https://www.books.com.tw/products/0010928621).
 
 Professionally, I’m passionate about exploring the potential of new technologies and leveraging them to create impactful solutions. I thrive in diverse environments, always eager to learn from others and share my own knowledge.
 
 Welcome to my personal website, where you can learn more about my interests and professional journey.
+
+<center>
+<i class="fa fa-download" aria-hidden="true" style="color:#1664c0"></i> {{< staticref "cv/resume.pdf" "newtab" >}}Download my CV{{< /staticref >}}
+</center>
 
 {style="text-align: justify;"}
