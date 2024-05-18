@@ -10,3 +10,4 @@ Add experience: `content/_index.md` at `- block: experience`
 
 Add albums: `assets/media/albums`
 
+Configure menu bar: `config/_default/menus.yaml`
