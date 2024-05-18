@@ -6,8 +6,8 @@ title: Li, Oscar
 name_pronunciation: 李勝維
 
 # Full name (for SEO)
-first_name: 勝維 Sheng-Wei
-last_name: 李 Li
+first_name: 勝維 (Sheng-Wei)
+last_name: 李 (Li)
 
 # # Status emoji
 # status:
@@ -46,8 +46,8 @@ education:
       institution: National Chiao Tung University
       year: 2022
 
-# Skills
-# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
+# # Skills
+# # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 # skills:
 #   - name: Technical
 #     items:
@@ -109,6 +109,8 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/pha123661
+  - icon: face-laugh-beam
+    link: https://huggingface.co/liswei
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.

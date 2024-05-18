@@ -4,6 +4,7 @@ summary: Combined attention and U-Net for long-tail point cloud semantic segment
 
 tags:
   - CV
+  - Competition
 date: "2023-02-15T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
@@ -18,4 +19,8 @@ links:
   url: 'https://github.com/pha123661/Long-Tail-Point-Cloud-Segmentation'
   icon_pack: fas
   icon: file-code
+- name: Challenge
+  url: https://kaldir.vc.in.tum.de/scannet_benchmark/
+  icon_pack: fas
+  icon: trophy
 ---
