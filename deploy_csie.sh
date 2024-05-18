@@ -1,3 +1,7 @@
+set -e
+
+git pull
+
 if [ ! -f ./hugo ]; then
     echo "Downloading Hugo..."
     wget https://github.com/gohugoio/hugo/releases/download/v0.126.1/hugo_extended_0.126.1_linux-amd64.tar.gz
@@ -10,4 +14,5 @@ rm -rf ~/htdocs/*
 mv ./public/* ~/htdocs/
 echo "Deployed to ~/htdocs/"
 
+rm -r public
 rm -rf ./resources
