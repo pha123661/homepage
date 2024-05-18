@@ -1,6 +1,7 @@
 set -e
 
-git pull
+git fetch --all
+git reset --hard origin/main
 
 if [ ! -f ./hugo ]; then
     echo "Downloading Hugo..."
