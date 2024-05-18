@@ -3,7 +3,7 @@ from flask import Flask, request
 import subprocess
 import os
 
-# Set up logging
+os.unlink('CI.log')
 logging.basicConfig(filename='CI.log', level=logging.INFO, format='%(asctime)s %(message)s')
 
 app = Flask(__name__)
@@ -17,14 +17,15 @@ def deploy():
         if 'ref' in data and data['ref'] == 'refs/heads/main':
             print("Deploying")
             logging.info('Deployment started.')
-            # run ./deploy_csie.sh
-            ret = subprocess.run(["./deploy_csie.sh"])
+            ret = subprocess.run(["bash" "deploy_csie.sh"])
             if ret.returncode == 0:
+                logging.info(ret.stdout)
                 logging.info('Deployment successful.')
                 return 'Deployed', 200
             else:
                 logging.error('Deployment failed.')
                 return 'Failed', 500
+
     logging.info('Request ignored.')
     return 'Ignored', 200
 
