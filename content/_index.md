@@ -24,7 +24,6 @@ sections:
     content:
       title: Experience
       # Date format for experience
-      #   Refer to https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
       # Experiences.
       #   Add/remove as many `experience` items below as you like.
@@ -32,27 +31,68 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: Machine Learning Engineering Intern
+          company: Google
+          company_url: 'https://about.google/'
+          company_logo: org-google
+          location: Taipei
+          date_start: '2024-06-01'
           date_end: ''
-          description: |2-
+          description: ''
+
+        - title: Software Engineer Intern
+          company: Intel
+          company_url: 'https://www.intel.com/'
+          company_logo: org-intel
+          location: Taipei
+          date_start: '2023-07-01'
+          date_end: '2023-06-01'
+          description: 'Contributed to the internal LLM coding assistant for unit-test generation, improving the code coverage by 20% without human intervention.'
+
+        - title: NLP Engineer, TAIDE Project
+          company: NARLabs 國家實驗研究院
+          company_url: 'https://www.narlabs.org.tw/'
+          company_logo: org-narlabs
+          location: Taipei
+          date_start: '2023-03-01'
+          date_end: '2023-09-01'
+          # description: 'Contributed to the [TAIDE Project](https://taide.tw/index), with responsibilities including data generation, filtering, cleaning of preference data, continual pre-training, instruction fine-tuning, and safety-alignment.'
+          description: '|2-
+              Participated in the [TAIDE Project](https://taide.tw/index),
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              * Data Generation, Filtering, and Cleaning of Preference Data
+              * Continual Pre-training and Fine-tuning
+              * Instruction Fine-tuning
+              * Safety Alignment and Evaluation'
+
+        # - title: Head of NLP Research Group
+        #   company: Intelligent Agents Lab, National Taiwan University
+        #   company_url: 'https://iagentntu.github.io/'
+        #   company_logo: org-iagents
+        #   location: Taipei
+        #   date_start: '2023-02-01'
+        #   date_end: '2024-07-01'
+        #   description: 'Brings researchers from physical therapy and computer science to pioneer early detection of neurodevelopmental issues and their risk factors in preterm infants.'
+
+        - title: AI Engineering Intern
+          company: Tomofun, an AI Pet Technology Startup
+          company_url: 'https://furbo.com/tw/'
+          company_logo: org-tomofun
+          location: Taipei
+          date_start: '2023-03-01'
+          date_end: '2023-06-01'
+          description: 'Focused on the efficient tuning of vision-language model for pet monitoring, improving the model OOD factuality by 15%.'
+
+        - title: Research Assistant
+          company: Applied Computing and Multimedia Lab, NCTU
+          company_url: 'http://acm.cs.nycu.edu.tw/'
+          company_logo: org-nctu
+          location: Hsinchu
+          date_start: '2021-01-01'
+          date_end: '2022-01-01'
+          description: 'Engaged in efficient meta-learning for sensor forecasting, reducing training data requirement by 97.5%.'
+
     design:
       columns: '2'
   - block: accomplishments
