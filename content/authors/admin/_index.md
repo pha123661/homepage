@@ -21,11 +21,13 @@ role: MLE Intern @ Google | CS @ NTU
 
 # Organizations/Affiliations to show in About widget
 organizations:
+  - name: Google LLC
+    url: https://about.google/
   - name: National Taiwan University
     url: https://www.csie.ntu.edu.tw/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Short bio here.
+# bio: Short bio here.
 
 # Interests to show in About widget
 interests:
@@ -106,7 +108,7 @@ social:
     link: https://github.com/pha123661
   - icon: linkedin
     icon_pack: fab
-    link: www.linkedin.com/in/oscar-swli
+    link: https://www.linkedin.com/in/oscar-swli
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -118,10 +120,12 @@ social:
 # highlight_name: true
 ---
 
-Hello, my name is Sheng-Wei Li (李勝維) but you can call me Oscar.
+Hello, my name is Li, Sheng-Wei (李勝維) but you can call me Oscar.
 
 I like playing darts and recently ranked up to (DARTSLIVE) RATING 9. Along with this, I also like to read novels. My all-time favorite novel is [孺子帝](https://www.books.com.tw/products/0010928621).
 
-Additionally, my research interests lie in the field of Deep Learning, specifically in the areas of Multi-Modal Deep Learning, Natural Language Processing and Parameter-Efficient Tuning. I am passionate about exploring the potential of these technologies and finding ways to apply them in innovative and impactful ways.
+Professionally, I’m passionate about exploring the potential of new technologies and leveraging them to create impactful solutions. I thrive in diverse environments, always eager to learn from others and share my own knowledge.
+
+Welcome to my personal website, where you can learn more about my interests and professional journey.
 
 {style="text-align: justify;"}
