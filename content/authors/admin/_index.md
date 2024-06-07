@@ -124,9 +124,9 @@ highlight_name: true
 
 Hello, my name is Li, Sheng-Wei but you can call me Oscar.
 
-I like playing darts and recently ranked up to dartslive rating 9. Along with this, I also like to read novels. My all-time favorite novel is [孺子帝](https://www.books.com.tw/products/0010928621).
+I'm passionate about applying ML solutions to real-world challenges. My work has been recognized by government-sponsored competitions and academic competitions. I have also contributed to the development of the TAIDE LLM and my ML-based HVAC control solution has yielded savings of up to 1 million at TSMC. I enjoy working with diverse teams and am always eager to learn and share.
 
-Professionally, I’m passionate about exploring the potential of new technologies and leveraging them to create impactful solutions. I thrive in diverse environments, always eager to learn from others and share my own knowledge.
+I like playing darts and recently ranked up to dartslive rating 9. Along with this, I also like to read novels. My all-time favorite novel is [孺子帝](https://www.books.com.tw/products/0010928621).
 
 Welcome to my personal website, where you can learn more about my interests and professional journey.
 

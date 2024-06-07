@@ -1,6 +1,6 @@
 ---
 title: "Listen Watch and Read: Multimodal Information Authenticity Detection and Source Tracking"
-summary: Proposed dataset and system to detect misinformation and AI-generated content in text, video, and audio.
+summary: Proposed dataset and system to detect misinformation and AI-generated contents in text, video, and audio.
 tags:
   - NLP
   - Multimodal DL

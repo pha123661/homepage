@@ -1,6 +1,6 @@
 ---
 title: 哈哈狗, an Emoji Language Model Bot
-summary: This is a bot that uses a language model to generate emojis based on a given text or paragraph in Line.
+summary: The bot inserts emojis in the given paragraph using trained language model.
 
 tags:
   - Demo

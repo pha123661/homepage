@@ -1,6 +1,6 @@
 ---
 title: ScanNet200 Long-tail Point Cloud Semantic Segmentation Challenge 2022
-summary: Combined attention and U-Net for long-tail point cloud semantic segmentation. Voted 1st place in the Challenge.
+summary: Combined attention and U-Net for long-tail point cloud semantic segmentation. Voted 1st place in the Challenge for best novelty and poster presentation.
 
 tags:
   - CV

@@ -1,6 +1,6 @@
 ---
 title: TAIDE - Trustworthy AI Dialog Engine
-summary: The TAIDE project aims to develop a trustworthy LLM tailored for Taiwan.
+summary: The TAIDE project developed a trustworthy LLM tailored for Taiwanese culture. Outperforming GPT3.5-Turbo on 14 task evaluations.
 tags:
   - NLP
   - LLM

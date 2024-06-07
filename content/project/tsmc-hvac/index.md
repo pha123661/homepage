@@ -1,6 +1,6 @@
 ---
 title: "AI Learning and Digital Twin in HVAC Control"
-summary: AI for HVAC control. The research won the Gold Award of the Intelligent Living Space Design Competition in 2022.
+summary: Digital twin and AI for HVAC control. The research won the Gold Award of the Intelligent Living Space Design Competition in 2022 for its effectiveness, efficiency and novelty.
 tags:
   - Multimodal DL
   - Competition
