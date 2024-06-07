@@ -11,9 +11,10 @@ fi
 
 if [ ! -f ./hugo ]; then
     echo "Downloading Hugo..."
-    wget https://github.com/gohugoio/hugo/releases/download/v0.126.1/hugo_extended_0.126.1_linux-amd64.tar.gz
-    tar -xzf hugo_extended_0.126.1_linux-amd64.tar.gz hugo
-    rm hugo_extended_0.126.1_linux-amd64.tar.gz
+    latest=0.127.0
+    wget https://github.com/gohugoio/hugo/releases/download/v${latest}/hugo_extended_${latest}_linux-64bit.tar.gz
+    tar -xzf hugo_extended_${latest}_linux-64bit.tar.gz hugo
+    rm hugo_extended_${latest}_linux-64bit.tar.gz
 fi
 
 ./hugo
