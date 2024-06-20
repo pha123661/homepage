@@ -31,9 +31,8 @@ organizations:
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
+  - Large Language Models
   - Vision+X Multi-Modal Learning
-  - Video Understanding
   - Efficient Tuning of Transformers
 
 # Education to show in About widget
