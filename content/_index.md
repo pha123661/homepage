@@ -35,7 +35,7 @@ sections:
           company: Google
           company_url: 'https://about.google/'
           company_logo: org-google
-          location: Taipei
+          # location: Taipei
           date_start: '2024-06-01'
           date_end: ''
           description: ''
@@ -44,7 +44,7 @@ sections:
           company: Intel
           company_url: 'https://www.intel.com/'
           company_logo: org-intel
-          location: Taipei
+          # location: Taipei
           date_start: '2023-07-01'
           date_end: '2024-05-01'
           description: 'Contributed to the internal LLM coding assistant for unit-test generation, improving the code coverage by 20% without human intervention.'
@@ -53,7 +53,7 @@ sections:
           company: NARLabs 國家實驗研究院
           company_url: 'https://www.narlabs.org.tw/'
           company_logo: org-narlabs
-          location: Taipei
+          # location: Taipei
           date_start: '2023-03-01'
           date_end: '2023-09-01'
           description: 'Contributed to the [TAIDE Project](project/taide/), including preference data generation, pre-training, instruction tuning, and safety alignment.'
@@ -62,7 +62,7 @@ sections:
           company: Tomofun, an AI Pet Technology Startup
           company_url: 'https://furbo.com/tw/'
           company_logo: org-tomofun
-          location: Taipei
+          # location: Taipei
           date_start: '2023-03-01'
           date_end: '2023-06-01'
           description: 'Focused on the efficient tuning of vision-language model for pet monitoring, improving the model OOD factuality by 15%.'
@@ -71,7 +71,7 @@ sections:
           company: Applied Computing and Multimedia Lab, NCTU
           company_url: 'http://acm.cs.nycu.edu.tw/'
           company_logo: org-nctu
-          location: Hsinchu
+          # location: Hsinchu
           date_start: '2021-01-01'
           date_end: '2022-01-01'
           description: |
