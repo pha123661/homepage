@@ -31,7 +31,9 @@ organizations:
 
 # Interests to show in About widget
 interests:
+  - Generative AI
   - Large Language Models
+  - Conditional Diffusion Models
   - Vision+X Multi-Modal Learning
   - Efficient Tuning of Transformers
 
@@ -121,11 +123,9 @@ social:
 highlight_name: true
 ---
 
-Hello, my name is Li, Sheng-Wei but you can call me Oscar.
+Hello, my name is Li Sheng-Wei but you can call me Oscar.
 
-I'm passionate about applying ML solutions to real-world challenges. My work has been recognized by government-sponsored competitions and academic competitions. I have also contributed to the development of the TAIDE LLM and my ML-based HVAC control solution has yielded savings of up to 1 million at TSMC. I enjoy working with diverse teams and am always eager to learn and share.
-
-I like playing darts and recently ranked up to dartslive rating 9. Along with this, I also like to read novels. My all-time favorite novel is [孺子帝](https://www.books.com.tw/products/0010928621).
+I'm passionate about applying ML solutions to real-world challenges. I have contributed to the development of the TAIDE LLM and my ML-based HVAC control solution has yielded savings of up to 1 million at TSMC. I enjoy working with diverse teams and am always eager to learn and share.
 
 Welcome to my personal website, where you can learn more about my interests and professional journey.
 

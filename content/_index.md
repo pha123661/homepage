@@ -49,7 +49,7 @@ sections:
           date_end: '2024-05-01'
           description: 'Contributed to the internal LLM coding assistant for unit-test generation, improving the code coverage by 20% without human intervention.'
 
-        - title: NLP Engineer, TAIDE Project
+        - title: LLM Engineer Intern, TAIDE LLM
           company: NARLabs 國家實驗研究院
           company_url: 'https://www.narlabs.org.tw/'
           company_logo: org-narlabs
