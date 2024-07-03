@@ -59,7 +59,7 @@ sections:
           description: 'Contributed to the [TAIDE Project](project/taide/), including preference data generation, pre-training, instruction tuning, and safety alignment.'
 
         - title: AI Engineering Intern
-          company: Tomofun, an AI Pet Technology Startup
+          company: Tomofun
           company_url: 'https://furbo.com/tw/'
           company_logo: org-tomofun
           # location: Taipei
