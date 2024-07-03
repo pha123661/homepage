@@ -31,14 +31,14 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Silicon Engineering Intern, Machine Learning
+        - title: Machine Learning Intern, Pixel ISP
           company: Google
           company_url: 'https://about.google/'
           company_logo: org-google
           # location: Taipei
           date_start: '2024-06-01'
           date_end: ''
-          description: ''
+          description: 'Worked on Generative AI features for image processing.'
 
         - title: Software Engineer Intern
           company: Intel
