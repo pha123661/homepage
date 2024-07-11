@@ -6,12 +6,12 @@ title: Li, Oscar
 name_pronunciation: 李勝維
 
 # Full name (for SEO)
-first_name: 勝維 (Sheng-Wei)
-last_name: 李 (Li)
+first_name: 勝維 Sheng-Wei
+last_name: 李 Li
 
-# # Status emoji
-# status:
-#   icon: 😁
+# Status emoji
+status:
+  icon: 😁
 
 # Is this the primary user of the site?
 superuser: true
