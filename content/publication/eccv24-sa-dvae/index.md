@@ -5,7 +5,7 @@ title: 'SA-DVAE: Improving Zero-Shot Skeleton-Based Action Recognition by Disent
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - "**Sheng-Wei Li**"
+  - fullch
   - Zi-Xiang Wei
   - Wei-Jie Chen
   - Yi-Hsin Yu
