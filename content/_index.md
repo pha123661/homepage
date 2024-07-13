@@ -154,13 +154,13 @@ sections:
   - block: collection
     id: publications
     content:
-      title: Recent Publications
+      title: Publications
       filters:
         folders:
           - publication
         exclude_featured: false
     design:
-      columns: '1'
+      columns: '2'
       view: citation
 
   - block: portfolio
@@ -188,7 +188,7 @@ sections:
           tag: "Demo"
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+      columns: '2'
       view: masonry
       flip_alt_rows: false
 
