@@ -46,7 +46,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Oscar'
+    notice: '© {year} Oscar Li. All rights reserved.'
     license:
       enable: false
       allow_derivatives: false
