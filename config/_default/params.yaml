@@ -65,13 +65,13 @@ locale:
 features:
   syntax_highlighter:
     theme_light: github-light
-    theme_dark: dracula
+    theme_dark: github-dark
   math:
     enable: false
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/pha123661/pha123661.github.io'
+    url: ''
     content_dir: content
     branch: main
   avatar:
