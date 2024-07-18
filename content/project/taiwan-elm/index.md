@@ -1,6 +1,6 @@
 ---
-title: "Taiwan-ELM: Open & Efficient LLM for Taiwan Culture"
-summary: Efficient LLM for Taiwan with open weights/datasets/checkpoints and affordable sizes (270M/1.1B).
+title: "Taiwan-ELM"
+summary: Efficient LLM for Taiwan with open weights, datasets, and checkpoints and affordable sizes (270M/1.1B).
 tags:
   - NLP
   - LLM
