@@ -32,10 +32,9 @@ organizations:
 # Interests to show in About widget
 interests:
   - Generative AI
-  - Large Language Models
-  - Conditional Diffusion Models
+  - Training Large Language Models
+  - Efficient Diffusion Models
   - Vision+X Multi-Modal Learning
-  - Efficient Tuning of Transformers
 
 # Education to show in About widget
 education:
