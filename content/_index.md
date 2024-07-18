@@ -38,7 +38,9 @@ sections:
           # location: Taipei
           date_start: '2024-06-01'
           date_end: ''
-          description: 'Worked on Generative AI for image to image editing with text guidance.'
+          description: |
+                  - Developed Generative AI for image editing with text prompts.
+                  - Designed efficient generative model architecture for 20x faster inference.
 
         - title: Software Engineer Intern
           company: Intel

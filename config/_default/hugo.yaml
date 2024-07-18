@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Oscar Li 李勝維 # Website name
+title: Sheng-Wei "Oscar" Li # Website name
 baseURL: 'https://www.csie.ntu.edu.tw/~r11944004/' # Website URL
 
 ############################

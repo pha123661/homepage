@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Li, Oscar
+title: Oscar, Li
 
 # Name pronunciation (optional)
 name_pronunciation: 李勝維
@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: MLE Intern @ Google | CS @ NTU
+role: ML Intern @ Google | CS @ NTU
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -123,7 +123,7 @@ social:
 highlight_name: true
 ---
 
-Hello, my name is Li Sheng-Wei but you can call me Oscar.
+Hi I'm Oscar!
 
 I'm passionate about applying ML solutions to real-world challenges. I have contributed to the development of the TAIDE LLM and my ML-based HVAC control solution has yielded savings of up to 1 million at TSMC. I enjoy working with diverse teams and am always eager to learn and share.
 
