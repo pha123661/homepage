@@ -23,8 +23,8 @@ role: ML Intern @ Google | CS @ NTU
 organizations:
   - name: Google LLC
     url: https://about.google/
-  - name: National Taiwan University
-    url: https://www.csie.ntu.edu.tw/
+  # - name: National Taiwan University
+  #   url: https://www.csie.ntu.edu.tw/
 
 # Short bio (displayed in user profile at end of posts)
 # bio: Short bio here.
@@ -109,14 +109,14 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/pha123661
-  - icon: face-laugh-beam
+  - icon: h
     link: https://huggingface.co/liswei
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: uploads/resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -129,7 +129,7 @@ I'm passionate about applying ML solutions to real-world challenges. I have cont
 Welcome to my personal website, where you can learn more about my interests and professional journey.
 
 <center>
-<i class="fa fa-download" aria-hidden="true" style="color:#1664c0"></i> {{< staticref "uploads/resume.pdf" "newtab" >}}Download my Résumé{{< /staticref >}}
+<i class="fa-solid fa-arrow-down" aria-hidden="true" style="color:#1664c0"></i> {{< staticref "uploads/resume.pdf" "newtab" >}}Download my Resume{{< /staticref >}}
 </center>
 
 {style="text-align: justify;"}
