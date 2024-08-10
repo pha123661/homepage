@@ -51,14 +51,14 @@ sections:
           date_end: '2024-05-01'
           description: 'Contributed to the internal LLM coding assistant for unit-test generation, improving the code coverage by 20% without human intervention.'
 
-        - title: LLM Engineer Intern, TAIDE LLM
+        - title: LLM Engineer, TAIDE LLM
           company: NARLabs 國家實驗研究院
           company_url: 'https://www.narlabs.org.tw/'
           company_logo: org-narlabs
           # location: Taipei
           date_start: '2023-03-01'
           date_end: '2023-09-01'
-          description: 'Developed to the [TAIDE LLM](project/taide/), including preference data generation, pre-training, instruction tuning, and safety alignment.'
+          description: 'Developed the [TAIDE LLM](project/taide/) for Taiwan culture, including preference data generation, pre-training, instruction tuning, and safety alignment.'
 
         - title: AI Engineering Intern
           company: Tomofun
