@@ -129,7 +129,7 @@ I'm passionate about applying ML solutions to real-world challenges. I have cont
 Welcome to my personal website, where you can learn more about my interests and professional journey.
 
 <center>
-<i class="fa-solid fa-arrow-down" aria-hidden="true" style="color:#1664c0"></i> {{< staticref "uploads/resume.pdf" "newtab" >}}Download my Resume{{< /staticref >}}
+<i class="fa-solid fa-arrow-down" aria-hidden="true" style="color:#1664c0"></i> {{< staticref "uploads/Oscar_Li_Resume.pdf" "newtab" >}}Download my Resume{{< /staticref >}}
 </center>
 
 {style="text-align: justify;"}
