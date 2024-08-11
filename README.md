@@ -1,4 +1,4 @@
-# Oscar Li's Personal Website
+# Oscar Li's homepage
 
 ## How to update?
 
