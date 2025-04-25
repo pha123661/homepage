@@ -37,7 +37,7 @@ sections:
           company_logo: org-google
           # location: Taipei
           date_start: '2024-06-01'
-          date_end: ''
+          date_end: '2024-09-01'
           description: |
                   - Developed Generative AI for image editing with text prompts.
                   - Designed efficient generative model architecture for 20x faster inference.
