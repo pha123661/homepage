@@ -12,3 +12,4 @@ hugo
 .nfs*
 
 CI.log
+htdocs.zip
