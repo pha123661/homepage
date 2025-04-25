@@ -2,6 +2,7 @@ import logging
 from flask import Flask, request
 import subprocess
 import os
+import time
 
 os.unlink('CI.log')
 logging.basicConfig(filename='CI.log', level=logging.INFO, format='%(asctime)s %(message)s')
@@ -15,6 +16,10 @@ def deploy():
     if request.method == 'POST':
         data = request.json
         if 'ref' in data and data['ref'] == 'refs/heads/main':
+            # wait for 120 seconds for it to be ready
+            print("Waiting for 120 seconds.")
+            time.sleep(120)
+
             print("Deploying")
             logging.info('Deployment started.')
             ret = subprocess.run(["bash", "deploy_csie.sh", "--reset"])
