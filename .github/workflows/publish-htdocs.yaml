@@ -32,11 +32,11 @@ jobs:
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
-        run: hugo --minify -d public
+        run: hugo --minify -d htdocs
 
       # 4) Zip the output
       - name: Zip public folder
-        run: zip -r htdocs.zip public
+        run: zip -r htdocs.zip htdocs
 
       # 5) Authenticate GitHub CLI
       - name: Authenticate gh
