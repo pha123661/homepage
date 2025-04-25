@@ -38,9 +38,7 @@ sections:
           # location: Taipei
           date_start: '2025-05-01'
           date_end: ''
-          description: |
-                  - Developed Generative AI for image editing with text prompts.
-                  - Designed efficient generative model architecture for 20x faster inference.
+          description: Created ML algorithms, drove hardware- and silicon-aware optimizations influencing future SoC designs, and generated patentable intellectual property.
 
         - title: Machine Learning Intern
           company: Google
