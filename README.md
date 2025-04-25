@@ -1,13 +1,28 @@
-# Oscar Li's homepage
+# Oscar Li's Homepage
 
-## How to update?
+## How to Update This Site
 
-Biography: `content/authors/admin/_index.md`
+### Update Biography  
 
-Configure page layout: `content/_index.md`
+Edit your bio in:  
+[`content/authors/admin/_index.md`](https://github.com/pha123661/homepage/edit/main/content/authors/admin/_index.md)
 
-Add experience: `content/_index.md` at `- block: experience`
+### Configure Page Layout  
 
-Add albums: `assets/media/albums`
+Adjust the homepage layout here:  
+[`content/_index.md`](https://github.com/pha123661/homepage/edit/main/content/_index.md)
 
-Configure menu bar: `config/_default/menus.yaml`
+### Add Experience  
+
+To add or update professional experience, edit the `- block: experience` section in:  
+[`content/_index.md`](https://github.com/pha123661/homepage/edit/main/content/_index.md)
+
+### Add Photo Albums  
+
+Place new albums in the following folder:  
+[`assets/media/albums`](./assets/media/albums)
+
+### Configure Menu Bar  
+
+Modify the navigation menu in:  
+[`config/_default/menus.yaml`](https://github.com/pha123661/homepage/edit/main/config/_default/menus.yaml)
