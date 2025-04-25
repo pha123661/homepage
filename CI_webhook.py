@@ -15,8 +15,7 @@ def deploy():
     print(request.json)
     if request.method == 'POST':
         data = request.json
-        if 'ref' in data and data['ref'] == 'refs/heads/main':
-
+        if 'action' in data and data['action'] == 'published':
             print("Deploying")
             logging.info('Deployment started.')
             ret = subprocess.run(["bash", "deploy_csie.sh", "--reset"])
