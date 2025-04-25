@@ -116,8 +116,6 @@ social:
   - icon: cv
     icon_pack: ai
     link: uploads/Oscar_Li_Resume.pdf
-    display:
-      header: true
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
