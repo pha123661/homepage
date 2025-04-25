@@ -12,17 +12,17 @@ on:
 
 # Provide permission to clone the repo and deploy it to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   # Build website
-  build:
+  build-and-release:
     if: github.repository_owner != 'HugoBlox'
     runs-on: ubuntu-latest
     steps:
