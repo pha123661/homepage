@@ -46,18 +46,22 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       # add this to hugo for gh pages: --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Build with Hugo
+      - name: Build with Hugo for gh page
         env:
           HUGO_ENVIRONMENT: production
         run: |
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-          hugo --minify -d htdocs
+          hugo --minify -d ghpages --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./htdocs
+          path: ./ghpages
 
       # Create Release
+      - name: Build with Hugo for clean artifacts
+        env:
+          HUGO_ENVIRONMENT: production
+        run: hugo --minify -d htdocs
       - name: Zip public folder
         run: zip -r htdocs.zip htdocs
       - name: Authenticate gh
