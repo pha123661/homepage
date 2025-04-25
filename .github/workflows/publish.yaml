@@ -45,12 +45,13 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      # add this to hugo for gh pages: --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
         run: |
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-          hugo --minify -d htdocs # add this for gh pages: --baseURL "${{ steps.pages.outputs.base_url }}/"
+          hugo --minify -d htdocs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
