@@ -16,7 +16,6 @@ env:
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
-
     steps:
       # 1) Get the code
       - name: Checkout
@@ -40,14 +39,18 @@ jobs:
         run: zip -r htdocs.zip public
 
       # 5) Authenticate GitHub CLI
-      #    GitHub CLI comes pre-installed on ubuntu-latest runners :contentReference[oaicite:0]{index=0}
       - name: Authenticate gh
         run: |
           echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
 
-      # 6) Create or update the 'latest' release, clobbering any old website.zip
-      #    gh release create now supports --clobber to replace existing assets :contentReference[oaicite:1]{index=1}
-      - name: Create or update Release
+      # 6) Create or update the 'latest' release
+      - name: Delete existing release if it exists
+        run: gh release delete latest --yes || true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      # 7) Create new release
+      - name: Create Release
         run: |
           gh release create latest htdocs.zip \
             --title "Website: latest" \
