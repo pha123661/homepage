@@ -56,6 +56,24 @@ jobs:
         with:
           path: ./htdocs
 
+      # Create Release
+      - name: Zip public folder
+        run: zip -r htdocs.zip htdocs
+      - name: Authenticate gh
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+      - name: Delete existing release if it exists
+        run: gh release delete latest --yes || true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create Release
+        run: |
+          gh release create latest htdocs.zip \
+            --title "Artifacts" \
+            --notes "Auto-built from commit ${{ github.sha }} on $(date -u)"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   # Deploy website to GitHub Pages hosting
   deploy:
     if: github.repository_owner != 'HugoBlox'
