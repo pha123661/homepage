@@ -58,7 +58,9 @@ jobs:
           path: ./ghpages
 
       # Create Release
-      - name: Build with Hugo for clean artifacts
+      # Duplicate build since mismatched/missing baseURL might cause error during loading assests
+      # Is super fast due to caching
+      - name: Build with Hugo for clean artifact
         env:
           HUGO_ENVIRONMENT: production
         run: hugo --minify -d htdocs
