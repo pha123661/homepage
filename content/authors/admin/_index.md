@@ -123,9 +123,7 @@ highlight_name: true
 
 Hi! I'm Oscar, a Machine Learning Algorithm Engineer at Google. I specialize in large-scale LLM training and efficient diffusion models. I have a strong background in computer science, with a Master's degree from National Taiwan University and a Bachelor's degree from National Chiao Tung University.
 
-I have experience in various ML projects, including the development of a large-scale LLM and an efficient diffusion model. I have published research papers in top-tier conferences such as ECCV. My work has also been recognized with multiple awards, including the The Yin Zhi Tong Memorial Scholarship and Gold in the Intelligent Living Space Design Competition.
-
-I am passionate about building and delivering high-impact ML/GenAI solutions. My track record includes working with industry leaders like Google, Intel, and TSMC. I am always seeking opportunities to translate cutting-edge technology into significant value.
+I am passionate about building and delivering high-impact ML/GenAI solutions. My track record includes working with industry leaders like Google, Intel, and TSMC. I also have published research papers in top-tier conferences such as ECCV. I am always seeking opportunities to translate cutting-edge technology into significant value.
 
 <center>
 <i class="fa-solid fa-arrow-down" aria-hidden="true" style="color:#1664c0"></i> {{< staticref "uploads/Oscar_Li_Resume.pdf" "newtab" >}}Download my Resume{{< /staticref >}}
