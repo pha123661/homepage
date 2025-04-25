@@ -31,16 +31,26 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Image Processing Machine Learning Intern
+        - title: Machine Learning Algorithm Engineer
+          company: Google
+          company_url: 'https://about.google/'
+          company_logo: org-google
+          # location: Taipei
+          date_start: '2025-05-01'
+          date_end: ''
+          description: |
+                  - Developed Generative AI for image editing with text prompts.
+                  - Designed efficient generative model architecture for 20x faster inference.
+
+        - title: Machine Learning Intern
           company: Google
           company_url: 'https://about.google/'
           company_logo: org-google
           # location: Taipei
           date_start: '2024-06-01'
           date_end: '2024-09-01'
-          description: |
-                  - Developed Generative AI for image editing with text prompts.
-                  - Designed efficient generative model architecture for 20x faster inference.
+          description: Developed Generative AI for image editing using text prompts and designed an efficient generative model architecture achieving 25x faster inference.
+
 
         - title: Software Engineer Intern
           company: Intel
@@ -49,7 +59,7 @@ sections:
           # location: Taipei
           date_start: '2023-07-01'
           date_end: '2024-05-01'
-          description: 'Contributed to the internal LLM coding assistant for unit-test generation, improving the code coverage by 20% without human intervention.'
+          description: 'Contributed to the internal LLM copilot for unit-test generation, resulting in a 20% improvement in code coverage.'
 
         - title: LLM Engineer, TAIDE LLM
           company: NARLabs 國家實驗研究院
@@ -58,7 +68,7 @@ sections:
           # location: Taipei
           date_start: '2023-03-01'
           date_end: '2023-09-01'
-          description: 'Developed the [TAIDE LLM](project/taide/) for Taiwan culture, including preference data generation, pre-training, instruction tuning, and safety alignment.'
+          description: 'Developed the [TAIDE LLM](project/taide/) for Taiwanese culture. Involved in preference data generation, pre-training, instruction tuning, and safety alignment.'
 
         - title: AI Engineering Intern
           company: Tomofun
@@ -67,18 +77,16 @@ sections:
           # location: Taipei
           date_start: '2023-03-01'
           date_end: '2023-06-01'
-          description: 'Focused on the efficient tuning of vision-language model for pet monitoring, improving the model OOD factuality by 15%.'
+          description: "Focused on the efficient tuning of a vision-language model for pet monitoring, improving the model's out-of-distribution factuality by 15%."
 
         - title: Research Assistant
-          company: Applied Computing and Multimedia Lab, NCTU
+          company: TSMC and ACM Lab, NCTU
           company_url: 'http://acm.cs.nycu.edu.tw/'
-          company_logo: org-nctu
+          company_logo: org-tsmc
           # location: Hsinchu
           date_start: '2021-01-01'
           date_end: '2022-01-01'
-          description: |
-                  Engaged in efficient meta-learning for sensor forecasting, reducing training data requirement by 97.5%.
-                  Project: [AI Learning and Digital Twin in HVAC Control](project/tsmc-hvac/)
+          description: Engaged in efficient meta-learning ([AI Learning and Digital Twin in HVAC Control](project/tsmc-hvac/)) for sensor forecasting in HVAC control, significantly reducing training data requirements by 97.5%.
 
     design:
       columns: '2'
@@ -97,7 +105,7 @@ sections:
       items:
         - date_end: ''
           date_start: '2024-06-30'
-          description: 'Honored for exceptional academic performance, ranking among the top 3% of students.'
+          description: 'Honored for exceptional academic performance, ranking among the top 1% of students.'
           icon: phi_tau_phi
           organization: The Phi Tau Phi Scholastic Honor Society
           organization_url: http://www.phitauphi.org.tw/
