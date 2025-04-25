@@ -50,7 +50,6 @@ jobs:
       - name: Create or update Release
         run: |
           gh release create latest htdocs.zip \
-            --clobber \
             --title "Website: latest" \
             --notes "Auto-built from commit ${{ github.sha }} on $(date -u)"
         env:
