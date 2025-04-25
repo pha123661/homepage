@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: ML Intern @ Google | CS @ NTU
+role: ML Algo. Engineer @ Google
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -31,10 +31,9 @@ organizations:
 
 # Interests to show in About widget
 interests:
-  - Generative AI
-  - Training Large Language Models
-  - Efficient Diffusion Models
-  - Vision+X Multi-Modal Learning
+  - Vision + "X" Multimodal Learning
+  - Large-Scale LLM Training
+  - Efficient Diffusion Model & LLM
 
 # Education to show in About widget
 education:
@@ -114,19 +113,21 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  # - icon: cv
-  #   icon_pack: ai
-  #   link: uploads/resume.pdf
+  - icon: cv
+    icon_pack: ai
+    link: uploads/resume.pdf
+    display:
+      header: true
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Hi I'm Oscar!
+Hi! I'm Oscar, a Machine Learning Algorithm Engineer at Google. I specialize in large-scale LLM training and efficient diffusion models. I have a strong background in computer science, with a Master's degree from National Taiwan University and a Bachelor's degree from National Chiao Tung University.
 
-I'm passionate about applying ML solutions to real-world challenges. I have contributed to the development of the TAIDE LLM and my ML-based HVAC control solution has yielded savings of up to 1 million at TSMC. I enjoy working with diverse teams and am always eager to learn and share.
+I have experience in various ML projects, including the development of a large-scale LLM and an efficient diffusion model. I have published research papers in top-tier conferences such as ECCV. My work has also been recognized with multiple awards, including the The Yin Zhi Tong Memorial Scholarship and Gold in the Intelligent Living Space Design Competition.
 
-Welcome to my personal website, where you can learn more about my interests and professional journey.
+I am passionate about building and delivering high-impact ML/GenAI solutions. My track record includes working with industry leaders like Google, Intel, and TSMC. I am always seeking opportunities to translate cutting-edge technology into significant value.
 
 <center>
 <i class="fa-solid fa-arrow-down" aria-hidden="true" style="color:#1664c0"></i> {{< staticref "uploads/Oscar_Li_Resume.pdf" "newtab" >}}Download my Resume{{< /staticref >}}
