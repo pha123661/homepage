@@ -1,13 +1,13 @@
 #!/bin/bash
 set -e
 
-# Update local repository
-if [ "$1" == "--reset" ]; then
-    git fetch --all
-    git reset --hard origin/main
-else
-    git fetch --all
-fi
+# # Update local repository
+# if [ "$1" == "--reset" ]; then
+#     git fetch --all
+#     git reset --hard origin/main
+# else
+#     git fetch --all
+# fi
 
 # Define variables
 REPO="pha123661/homepage"  # Replace with your GitHub username and repository name
