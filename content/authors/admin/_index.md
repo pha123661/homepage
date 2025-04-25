@@ -31,7 +31,7 @@ organizations:
 
 # Interests to show in About widget
 interests:
-  - Vision + "X" Multimodal Learning
+  - Vision + X Multimodal Learning
   - Large-Scale LLM Training
   - Efficient Diffusion Model & LLM
 
