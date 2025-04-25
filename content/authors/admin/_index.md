@@ -121,12 +121,8 @@ social:
 highlight_name: true
 ---
 
-Hi! I'm Oscar, a Machine Learning Algorithm Engineer at Google. I specialize in large-scale LLM training and efficient diffusion models.
+Hi! I'm Oscar, a machine learning algorithm engineer at Google. I specialize in vision + X multimodal learning and efficient Gen-AI.
 
 My track record includes working with industry leaders like Google, Intel, and TSMC. I also have published research papers in top-tier conferences such as ECCV. I am always seeking opportunities to translate cutting-edge technology into significant value.
-
-<center>
-<i class="fa-solid fa-arrow-down" aria-hidden="true" style="color:#1664c0"></i> {{< staticref "uploads/Oscar_Li_Resume.pdf" "newtab" >}}Download my Resume{{< /staticref >}}
-</center>
 
 {style="text-align: justify;"}
