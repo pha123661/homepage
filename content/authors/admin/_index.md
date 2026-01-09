@@ -33,7 +33,7 @@ role: ML Algo. Engineer @ Google
 interests:
   - Vision + X Multimodal Learning
   - Large-Scale LLM Training
-  - Efficient Diffusion Model & LLM
+  - Efficient Foundation Models (MLLM and Video Generation Models)
 
 # Education to show in About widget
 education:
