@@ -108,8 +108,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/pha123661
-  # - icon: h
-  #   link: https://huggingface.co/liswei
+  - icon: face-smiling-hands
+    icon_pack: fab
+    link: https://huggingface.co/liswei
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
