@@ -108,7 +108,7 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/pha123661
-  - icon: face-smiling-hands
+  - icon: face-smile
     icon_pack: fab
     link: https://huggingface.co/liswei
   # Link to a PDF of your resume/CV.
